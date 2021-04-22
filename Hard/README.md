@@ -8,3 +8,4 @@
 * [Zigzag Traverse](./ZigzagTraverse.java)
 * [Same BSTs](./SameBSTs.java)
 * [Validate Three Nodes](./ValidateThreeNodes.java)
+* [Max Path Sum In Binary Tree](./MaxPathSumInBinaryTree.java)
