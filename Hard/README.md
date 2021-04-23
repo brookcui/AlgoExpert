@@ -13,3 +13,4 @@
 * [Max Sum Increasing Subsequence](./MaxSumIncreasingSubsequence.java)
 * [Longest Common Subsequence](./LongestCommonSubsequence.java)
 * [Min Number Of Jumps](./MinNumberOfJumps.java)
+* [WaterArea](./WaterArea.java)
