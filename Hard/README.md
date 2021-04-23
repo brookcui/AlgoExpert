@@ -14,3 +14,4 @@
 * [Longest Common Subsequence](./LongestCommonSubsequence.java)
 * [Min Number Of Jumps](./MinNumberOfJumps.java)
 * [WaterArea](./WaterArea.java)
+* [Knapsack Problem](./KnapsackProblem.java)
