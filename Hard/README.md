@@ -16,3 +16,4 @@
 * [WaterArea](./WaterArea.java)
 * [Knapsack Problem](./KnapsackProblem.java)
 * [Disk Stacking](./DiskStacking.java)
+* [Numbers In Pi](./NumbersInPi.java)
