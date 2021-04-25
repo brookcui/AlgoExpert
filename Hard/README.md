@@ -20,3 +20,4 @@
 * [Maximum Sum Submatrix](./MaximumSumSubmatrix.java)
 * [Maximize Expression](./MaximizeExpression.java)
 * [Dijkstra's Algorithm](./DijkstrasAlgorithm.java)
+* [Topological Sort](./TopologicalSort.java)
