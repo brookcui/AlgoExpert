@@ -17,3 +17,4 @@
 * [Knapsack Problem](./KnapsackProblem.java)
 * [Disk Stacking](./DiskStacking.java)
 * [Numbers In Pi](./NumbersInPi.java)
+* [Maximum Sum Submatrix](./MaximumSumSubmatrix.java)
