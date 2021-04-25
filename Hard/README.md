@@ -15,3 +15,4 @@
 * [Min Number Of Jumps](./MinNumberOfJumps.java)
 * [WaterArea](./WaterArea.java)
 * [Knapsack Problem](./KnapsackProblem.java)
+* [Disk Stacking](./DiskStacking.java)
