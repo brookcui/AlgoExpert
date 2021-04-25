@@ -18,3 +18,4 @@
 * [Disk Stacking](./DiskStacking.java)
 * [Numbers In Pi](./NumbersInPi.java)
 * [Maximum Sum Submatrix](./MaximumSumSubmatrix.java)
+* [Maximize Expression](./MaximizeExpression.java)
