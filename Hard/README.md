@@ -40,3 +40,4 @@
 * [Multi String Search](./MultiStringSearch.java)
 * [Solve Sudoku](./SolveSudoku.java)
 * [Search For Range](./SearchForRange.java)
+* [Ambiguous Measurement](./AmbiguousMeasurement.java)
