@@ -27,3 +27,4 @@
 * [Labtop Rentals](./LaptopRentals.java)
 * [Find Loop](./FindLoop.java)
 * [Reverse Linked List](./ReverseLinkedList.java)
+* [Merge Linked Lists](./MergeLinkedLists.java)
