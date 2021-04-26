@@ -26,3 +26,4 @@
 * [Sort K-Sorted Array](./SortKSortedArray.java)
 * [Labtop Rentals](./LaptopRentals.java)
 * [Find Loop](./FindLoop.java)
+* [Reverse Linked List](./ReverseLinkedList.java)
