@@ -38,3 +38,4 @@
 * [Index Equals Value](./IndexEqualsValue.java)
 * [Shorten Path](./ShortenPath.java)
 * [Multi String Search](./MultiStringSearch.java)
+* [Solve Sudoku](./SolveSudoku.java)
