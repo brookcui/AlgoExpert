@@ -39,3 +39,4 @@
 * [Shorten Path](./ShortenPath.java)
 * [Multi String Search](./MultiStringSearch.java)
 * [Solve Sudoku](./SolveSudoku.java)
+* [Search For Range](./SearchForRange.java)
