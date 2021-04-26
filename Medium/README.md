@@ -6,3 +6,4 @@
 * [Powerset](./Powerset.java)
 * [Staircase Traversal](./StaircaseTraversal.java)
 * [Sort Stack](./SortStack.java)
+* [Height Balanced Binary Tree](./HeightBalancedBinaryTree.java)
