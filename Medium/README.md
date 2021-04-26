@@ -11,3 +11,4 @@
 * [Find Successor](./FindSuccessor.java)
 * [Reconstruct BST](./ReconstructBST.java)
 * [Find Kth Largest Value In BST](./FindKthLargestValueInBST.java)
+* [Invert Binary Tree](./InvertBinaryTree.java)
