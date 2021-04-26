@@ -32,3 +32,4 @@
 * [Interweaving Strings](./InterweavingStrings.java)
 * [Generate Div Tags](./GenerateDivTags.java)
 * [Shifted Binary Search](./ShiftedBinarySearch.java)
+* [Quickselect](./Quickselect.java)
