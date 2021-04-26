@@ -7,3 +7,4 @@
 * [Staircase Traversal](./StaircaseTraversal.java)
 * [Sort Stack](./SortStack.java)
 * [Height Balanced Binary Tree](./HeightBalancedBinaryTree.java)
+* [Binary Tree Diameter](./BinaryTreeDiameter.java)
