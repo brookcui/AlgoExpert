@@ -33,3 +33,4 @@
 * [Generate Div Tags](./GenerateDivTags.java)
 * [Shifted Binary Search](./ShiftedBinarySearch.java)
 * [Quickselect](./Quickselect.java)
+* [Longest Substring Without Duplication](./LongestSubstringWithoutDuplication.java)
