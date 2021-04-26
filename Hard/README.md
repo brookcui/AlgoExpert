@@ -36,3 +36,4 @@
 * [Longest Substring Without Duplication](./LongestSubstringWithoutDuplication.java)
 * [Largest Rectangle Under Skyline](./LargestRectangleUnderSkyline.java)
 * [Index Equals Value](./IndexEqualsValue.java)
+* [Shorten Path](./ShortenPath.java)
