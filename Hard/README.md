@@ -22,3 +22,4 @@
 * [Dijkstra's Algorithm](./DijkstrasAlgorithm.java)
 * [Topological Sort](./TopologicalSort.java)
 * [Boggle Board](./BoggleBoard.java)
+* [Continuous Median](./ContinuousMedian.java)
