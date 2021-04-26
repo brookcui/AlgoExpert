@@ -24,3 +24,4 @@
 * [Boggle Board](./BoggleBoard.java)
 * [Continuous Median](./ContinuousMedian.java)
 * [Sort K-Sorted Array](./SortKSortedArray.java)
+* [Labtop Rentals](./LaptopRentals.java)
