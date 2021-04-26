@@ -5,3 +5,4 @@
 * [Remove Kth Node From End](./RemoveKthNodeFromEnd.java)
 * [Powerset](./Powerset.java)
 * [Staircase Traversal](./StaircaseTraversal.java)
+* [Sort Stack](./SortStack.java)
