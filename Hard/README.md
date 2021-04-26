@@ -35,3 +35,4 @@
 * [Quickselect](./Quickselect.java)
 * [Longest Substring Without Duplication](./LongestSubstringWithoutDuplication.java)
 * [Largest Rectangle Under Skyline](./LargestRectangleUnderSkyline.java)
+* [Index Equals Value](./IndexEqualsValue.java)
