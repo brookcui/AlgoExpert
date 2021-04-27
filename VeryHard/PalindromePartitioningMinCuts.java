@@ -1,5 +1,6 @@
 import java.util.*;
 
+// Solution 1
 class Program {
 	// O(n^2) time | O(n^2) space
   public static int palindromePartitioningMinCuts(String str) {
@@ -38,6 +39,31 @@ class Program {
 					}
 				}
 			}
+		}
+    return cuts[length - 1];
+  }
+}
+
+// Solution 2
+class Program {
+	// O(n^2) time | O(n^2) space
+  public static int palindromePartitioningMinCuts(String str) {
+    // Write your code here.
+		int length = str.length();
+		if (length <= 1) {
+			return 0;
+		}
+		boolean[][] dp = new boolean[length][length];
+		int[] cuts = new int[length];
+		for (int j = 0; j < length; j++) {
+			int minCut = j;
+			for (int i = 0; i <= j; i++) {
+				if (str.charAt(i) == str.charAt(j) && (i + 1 > j - 1 || dp[i + 1][j - 1])) {
+					dp[i][j] = true;
+					minCut = (i == 0) ? 0 : Math.min(minCut, cuts[i - 1] + 1);
+				}
+			}
+			cuts[j] = minCut;
 		}
     return cuts[length - 1];
   }
