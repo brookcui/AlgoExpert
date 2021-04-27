@@ -11,3 +11,4 @@
 * [Line Through Points](./LineThroughPoints.java)
 * [Waterfall Streams](./WaterfallStreams.java)
 * [Palindrome Partitioning Min Cuts](./PalindromePartitioningMinCuts.java)
+* [Square Of Zeros](./SquareOfZeros.java)
