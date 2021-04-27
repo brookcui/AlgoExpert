@@ -10,3 +10,4 @@
 * [Right Smaller Than](./RightSmallerThan.java)
 * [Line Through Points](./LineThroughPoints.java)
 * [Waterfall Streams](./WaterfallStreams.java)
+* [Palindrome Partitioning Min Cuts](./PalindromePartitioningMinCuts.java)
