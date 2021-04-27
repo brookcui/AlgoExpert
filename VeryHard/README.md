@@ -13,3 +13,4 @@
 * [Palindrome Partitioning Min Cuts](./PalindromePartitioningMinCuts.java)
 * [Square Of Zeros](./SquareOfZeros.java)
 * [Airport Connections](./AirportConnections.java)
+* [Longest Balanced Substring](./LongestBalancedSubstring.java)
