@@ -44,3 +44,24 @@ class Program {
     return num;
 	}
 }
+
+// Solution 3
+class Program {
+	// O(n^2) time | O(n) space
+  public static int numberOfBinaryTreeTopologies(int n) {
+    // Write your code here.
+		int[] dp = new int[n + 1];
+		dp[0] = 1;
+		for (int m = 1; m <= n; m++) {
+			int num = 0;
+			for (int leftTreeSize = 0; leftTreeSize < m; leftTreeSize++) {
+				int rightTreeSize = m - 1 - leftTreeSize;
+				int numLeft = dp[leftTreeSize];
+				int numRight = dp[rightTreeSize];
+				num += numLeft * numRight;
+			}
+			dp[m] = num;
+		}
+    return dp[n];
+  }
+}
