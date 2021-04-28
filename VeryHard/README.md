@@ -18,3 +18,4 @@
 * [Merge Sorted Arrays](./MergeSortedArrays.java)
 * [Zip Linked List](./ZipLinkedList.java)
 * [Linked List Palindrome](./LinkedListPalindrome.java)
+* [Rearrange Linked List](./RearrangeLinkedList.java)
