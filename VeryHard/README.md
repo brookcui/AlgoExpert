@@ -15,3 +15,4 @@
 * [Airport Connections](./AirportConnections.java)
 * [Longest Balanced Substring](./LongestBalancedSubstring.java)
 * [Smallest Substring Containing](./SmallestSubstringContaining.java)
+* [Merge Sorted Arrays](./MergeSortedArrays.java)
