@@ -23,3 +23,4 @@
 * [Number Of Binary Tree Topologies](./NumberOfBinaryTreeTopologies.java)
 * [Merge Sort](./MergeSort.java)
 * [Count Inversions](./CountInversions.java)
+* [Non Attacking Queens](./NonAttackingQueens.java)
