@@ -26,3 +26,4 @@
 * [Non Attacking Queens](./NonAttackingQueens.java)
 * [Longest Increasing Subsequence](./LongestIncreasingSubsequence.java)
 * [Longest String Chain](./LongestStringChain.java)
+* [Detect Arbitrage](./DetectArbitrage.java)
