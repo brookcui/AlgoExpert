@@ -41,3 +41,4 @@
 * [Solve Sudoku](./SolveSudoku.java)
 * [Search For Range](./SearchForRange.java)
 * [Ambiguous Measurement](./AmbiguousMeasurement.java)
+* [Pattern Matcher](./PatternMatcher.java)
