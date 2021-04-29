@@ -22,3 +22,4 @@
 * [Node Swap](./NodeSwap.java)
 * [Number Of Binary Tree Topologies](./NumberOfBinaryTreeTopologies.java)
 * [Merge Sort](./MergeSort.java)
+* [Count Inversions](./CountInversions.java)
