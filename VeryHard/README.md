@@ -27,3 +27,4 @@
 * [Longest Increasing Subsequence](./LongestIncreasingSubsequence.java)
 * [Longest String Chain](./LongestStringChain.java)
 * [Detect Arbitrage](./DetectArbitrage.java)
+* [Rectangle Mania](./RectangleMania.java)
