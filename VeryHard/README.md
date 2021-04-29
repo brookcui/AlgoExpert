@@ -24,3 +24,5 @@
 * [Merge Sort](./MergeSort.java)
 * [Count Inversions](./CountInversions.java)
 * [Non Attacking Queens](./NonAttackingQueens.java)
+* [Longest Increasing Subsequence](./LongestIncreasingSubsequence.java)
+* [Longest String Chain](./LongestStringChain.java)
