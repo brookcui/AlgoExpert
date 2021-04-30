@@ -20,3 +20,5 @@
 * [Group Anagrams](./GroupAnagrams.java)
 * [Valid IP Addresses](./ValidIPAddresses.java)
 * [Suffix Trie Construction](./SuffixTrieConstruction.java)
+* [Search In Sorted Matrix](./SearchInSortedMatrix.java)
+* [Permutations](./Permutations.java)
