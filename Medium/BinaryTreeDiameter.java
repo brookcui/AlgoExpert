@@ -20,9 +20,9 @@ class Program {
 		if (tree == null) {
 			return 0;
 		}
-		diameter = 1;
+		diameter = 0;
 		dfs(tree);
-    return diameter - 1;
+    return diameter;
   }
 	
 	private int dfs(BinaryTree tree) {
@@ -31,8 +31,8 @@ class Program {
 		}
 		int left = dfs(tree.left);
 		int right = dfs(tree.right);
-		int largerDepth = 1 + Math.max(left, right);
-		diameter = Math.max(diameter, Math.max(left + right + 1, largerDepth));
+		int largerDepth = Math.max(left, right);
+		diameter = Math.max(diameter, Math.max(left + right, largerDepth));
 		return 1 + Math.max(left, right);
 	}
 }
