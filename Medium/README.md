@@ -19,3 +19,4 @@
 * [Longest Palindrome Substring](./LongestPalindromeSubstring.java)
 * [Group Anagrams](./GroupAnagrams.java)
 * [Valid IP Addresses](./ValidIPAddresses.java)
+* [Suffix Trie Construction](./SuffixTrieConstruction.java)
