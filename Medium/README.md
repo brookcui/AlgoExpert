@@ -24,3 +24,4 @@
 * [Permutations](./Permutations.java)
 * [Max Subset Sum No Adjacent](./MaxSubsetSumNoAdjacent.java)
 * [Number Of Ways To Make Change](./NumberOfWaysToMakeChange.java)
+* [Validate BST](./ValidateBST.java)
