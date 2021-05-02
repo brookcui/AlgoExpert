@@ -26,3 +26,4 @@
 * [Number Of Ways To Make Change](./NumberOfWaysToMakeChange.java)
 * [Validate BST](./ValidateBST.java)
 * [Min Height BST](./MinHeightBST.java)
+* [BST Traversal](./BSTTraversal.java)
