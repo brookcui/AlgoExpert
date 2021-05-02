@@ -25,3 +25,4 @@
 * [Max Subset Sum No Adjacent](./MaxSubsetSumNoAdjacent.java)
 * [Number Of Ways To Make Change](./NumberOfWaysToMakeChange.java)
 * [Validate BST](./ValidateBST.java)
+* [Min Height BST](./MinHeightBST.java)
