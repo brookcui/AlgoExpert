@@ -28,3 +28,4 @@
 * [Min Height BST](./MinHeightBST.java)
 * [BST Traversal](./BSTTraversal.java)
 * [Spiral Traverse](./SpiralTraverse.java)
+* [Longest Peak](./LongestPeak.java)
