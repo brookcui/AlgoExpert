@@ -29,3 +29,4 @@
 * [BST Traversal](./BSTTraversal.java)
 * [Spiral Traverse](./SpiralTraverse.java)
 * [Longest Peak](./LongestPeak.java)
+* [Array Of Products](./ArrayOfProducts.java)
