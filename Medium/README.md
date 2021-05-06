@@ -32,3 +32,4 @@
 * [Array Of Products](./ArrayOfProducts.java)
 * [First Duplicate Value](./FirstDuplicateValue.java)
 * [Merge Overlapping Intervals](./MergeOverlappingIntervals.java)
+* [BST Construction](./BSTConstruction.java)
