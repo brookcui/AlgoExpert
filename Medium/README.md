@@ -37,3 +37,4 @@
 * [Levenshtein Distance](./LevenshteinDistance.java)
 * [Number Of Ways To Traverse Graph](./NumberOfWaysToTraverseGraph.java)
 * [Kadane's Algorithm](./KadanesAlgorithm.java)
+* [Single Cycle Check](./SingleCycleCheck.java)
