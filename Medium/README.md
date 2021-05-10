@@ -36,3 +36,4 @@
 * [Min Number Of Coins For Change](./MinNumberOfCoinsForChange.java)
 * [Levenshtein Distance](./LevenshteinDistance.java)
 * [Number Of Ways To Traverse Graph](./NumberOfWaysToTraverseGraph.java)
+* [Kadane's Algorithm](./KadanesAlgorithm.java)
