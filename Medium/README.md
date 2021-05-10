@@ -33,3 +33,4 @@
 * [First Duplicate Value](./FirstDuplicateValue.java)
 * [Merge Overlapping Intervals](./MergeOverlappingIntervals.java)
 * [BST Construction](./BSTConstruction.java)
+* [Min Number Of Coins For Change](./MinNumberOfCoinsForChange.java)
