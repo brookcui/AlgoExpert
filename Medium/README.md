@@ -47,3 +47,4 @@
 * [Three Number Sort](./ThreeNumberSort.java)
 * [Sum Of Linked Lists](./SumOfLinkedLists.java)
 * [Phone Number Mnemonics](./PhoneNumberMnemonics.java)
+* [Min Max Stack Construction](./MinMaxStackConstruction.java)
