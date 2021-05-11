@@ -40,3 +40,4 @@
 * [Single Cycle Check](./SingleCycleCheck.java)
 * [Breadth-first Search](./BreadthFirstSearch.java)
 * [Youngest Common Ancestor](./YoungestCommonAncestor.java)
+* [Remove Islands](./RemoveIslands.java)
