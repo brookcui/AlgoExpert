@@ -46,3 +46,4 @@
 * [Valid Starting City](./ValidStartingCity.java)
 * [Three Number Sort](./ThreeNumberSort.java)
 * [Sum Of Linked Lists](./SumOfLinkedLists.java)
+* [Phone Number Mnemonics](./PhoneNumberMnemonics.java)
