@@ -16,6 +16,7 @@ AlgoExpert solutions.
   * [Find Closest Value In BST (Solution 2)](./Easy/FindClosestValueInBST2.java)
 * [Branch Sums](./Easy/BranchSums.java)
 * [Node Depths](./Easy/NodeDepths.java)
+* [Depth-first Search](./Easy/DepthFirstSearch.java)
 
 ### [Medium](./Medium/)
 

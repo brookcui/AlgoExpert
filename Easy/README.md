@@ -10,3 +10,4 @@
   * [Find Closest Value In BST (Solution 2)](./FindClosestValueInBST2.java)
 * [Branch Sums](./BranchSums.java)
 * [Node Depths](./NodeDepths.java)
+* [Depth-first Search](./DepthFirstSearch.java)
