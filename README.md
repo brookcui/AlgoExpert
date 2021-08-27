@@ -12,7 +12,8 @@ AlgoExpert solutions.
   * [Sorted Squared Array (Solution 2)](./Easy/SortedSquaredArray2.java)
 * [Tournament Winner](./Easy/TournamentWinner.java)
 * [Non-Constructible Change](./Easy/NonConstructibleChange.java)
-* [Find Closest Value In BST](./Easy/FindClosestValueInBST.java)
+* [Find Closest Value In BST (Solution 1)](./Easy/FindClosestValueInBST.java)
+  * [Find Closest Value In BST (Solution 2)](./Easy/FindClosestValueInBST2.java)
 
 ### [Medium](./Medium/)
 
