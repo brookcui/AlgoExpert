@@ -6,3 +6,4 @@
   * [Sorted Squared Array (Solution 2)](./SortedSquaredArray2.java)
 * [Tournament Winner](./TournamentWinner.java)
 * [Non-Constructible Change](./NonConstructibleChange.java)
+* [Find Closest Value In BST](./FindClosestValueInBST.java)
