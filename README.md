@@ -8,6 +8,7 @@ AlgoExpert solutions.
 
 * [Two Number Sum](./Easy/TwoNumberSum.java)
 * [Validate Subsequence](./Easy/ValidateSubsequence.java)
+* [Sorted Squared Array](./Easy/SortedSquaredArray.java)
 
 ### [Medium](./Medium/)
 
