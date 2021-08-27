@@ -11,6 +11,7 @@ AlgoExpert solutions.
 * [Sorted Squared Array (Solution 1)](./Easy/SortedSquaredArray.java)
   * [Sorted Squared Array (Solution 2)](./Easy/SortedSquaredArray2.java)
 * [Tournament Winner](./Easy/TournamentWinner.java)
+* [Non-Constructible Change](./Easy/NonConstructibleChange.java)
 
 ### [Medium](./Medium/)
 
