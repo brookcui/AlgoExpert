@@ -11,3 +11,4 @@
 * [Branch Sums](./BranchSums.java)
 * [Node Depths](./NodeDepths.java)
 * [Depth-first Search](./DepthFirstSearch.java)
+* [Minimum Waiting Time](./MinimumWaitingTime.java)

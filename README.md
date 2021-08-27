@@ -17,6 +17,7 @@ AlgoExpert solutions.
 * [Branch Sums](./Easy/BranchSums.java)
 * [Node Depths](./Easy/NodeDepths.java)
 * [Depth-first Search](./Easy/DepthFirstSearch.java)
+* [Minimum Waiting Time](./Easy/MinimumWaitingTime.java)
 
 ### [Medium](./Medium/)
 
