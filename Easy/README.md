@@ -1,3 +1,4 @@
 # Easy
 
-* [Validate Subsequence](./ValidateSubsequence.java)
+* [Two Number Sum](./TwoNumberSum.java)
+
