@@ -18,6 +18,7 @@ AlgoExpert solutions.
 * [Node Depths](./Easy/NodeDepths.java)
 * [Depth-first Search](./Easy/DepthFirstSearch.java)
 * [Minimum Waiting Time](./Easy/MinimumWaitingTime.java)
+* [Class Photos](./Easy/ClassPhotos.java)
 
 ### [Medium](./Medium/)
 
