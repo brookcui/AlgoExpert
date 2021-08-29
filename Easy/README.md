@@ -24,3 +24,4 @@
 * [Selection Sort](./SelectionSort.java)
 * [Palindrome Check](./PalindromeCheck.java)
 * [Caesar Cipher Encryptor](./CaesarCipherEncryptor.java)
+* [Run-Length Encoding](./RunLengthEncoding.java)

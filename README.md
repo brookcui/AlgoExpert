@@ -30,6 +30,7 @@ AlgoExpert solutions.
 * [Selection Sort](./Easy/SelectionSort.java)
 * [Palindrome Check](./Easy/PalindromeCheck.java)
 * [Caesar Cipher Encryptor](./Easy/CaesarCipherEncryptor.java)
+* [Run-Length Encoding](./Easy/RunLengthEncoding.java)
 
 ### [Medium](./Medium/)
 
