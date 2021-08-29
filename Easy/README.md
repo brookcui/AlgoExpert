@@ -21,3 +21,4 @@
 * [Find Three Largest Numbers](./FindThreeLargestNumbers.java)
 * [Bubble Sort](./BubbleSort.java)
 * [Insertion Sort](./InsertionSort.java)
+* [Selection Sort](./SelectionSort.java)
