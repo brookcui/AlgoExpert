@@ -24,6 +24,7 @@ AlgoExpert solutions.
 * [Nth Fibonacci](./Easy/NthFibonacci.java)
 * [Product Sum](./Easy/ProductSum.java)
 * [Binary Search](./Easy/BinarySearch.java)
+* [Find Three Largest Numbers](./Easy/FindThreeLargestNumbers.java)
 
 ### [Medium](./Medium/)
 
