@@ -32,6 +32,7 @@ AlgoExpert solutions.
 * [Caesar Cipher Encryptor](./Easy/CaesarCipherEncryptor.java)
 * [Run-Length Encoding](./Easy/RunLengthEncoding.java)
 * [Generate Document](./Easy/GenerateDocument.java)
+* [First Non-Repeating Character](./Easy/FirstNonRepeatingCharacter.java)
 
 ### [Medium](./Medium/)
 

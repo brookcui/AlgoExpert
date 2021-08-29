@@ -26,3 +26,4 @@
 * [Caesar Cipher Encryptor](./CaesarCipherEncryptor.java)
 * [Run-Length Encoding](./RunLengthEncoding.java)
 * [Generate Document](./GenerateDocument.java)
+* [First Non-Repeating Character](./FirstNonRepeatingCharacter.java)
