@@ -31,6 +31,7 @@ AlgoExpert solutions.
 * [Palindrome Check](./Easy/PalindromeCheck.java)
 * [Caesar Cipher Encryptor](./Easy/CaesarCipherEncryptor.java)
 * [Run-Length Encoding](./Easy/RunLengthEncoding.java)
+* [Generate Document](./Easy/GenerateDocument.java)
 
 ### [Medium](./Medium/)
 
