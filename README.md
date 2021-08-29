@@ -23,6 +23,7 @@ AlgoExpert solutions.
 * [Remove Duplicates From Linked List](./Easy/RemoveDuplicatesFromLinkedList.java)
 * [Nth Fibonacci](./Easy/NthFibonacci.java)
 * [Product Sum](./Easy/ProductSum.java)
+* [Binary Search](./Easy/BinarySearch.java)
 
 ### [Medium](./Medium/)
 

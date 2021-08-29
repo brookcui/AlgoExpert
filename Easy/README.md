@@ -17,3 +17,4 @@
 * [Remove Duplicates From Linked List](./RemoveDuplicatesFromLinkedList.java)
 * [Nth Fibonacci](./NthFibonacci.java)
 * [Product Sum](./ProductSum.java)
+* [Binary Search](./BinarySearch.java)
