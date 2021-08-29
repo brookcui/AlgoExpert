@@ -20,6 +20,7 @@ AlgoExpert solutions.
 * [Minimum Waiting Time](./Easy/MinimumWaitingTime.java)
 * [Class Photos](./Easy/ClassPhotos.java)
 * [Tandem Bicycle](./Easy/TandemBicycle.java)
+* [Remove Duplicates From Linked List](./Easy/RemoveDuplicatesFromLinkedList.java)
 
 ### [Medium](./Medium/)
 

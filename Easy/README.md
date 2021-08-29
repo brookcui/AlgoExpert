@@ -14,3 +14,4 @@
 * [Minimum Waiting Time](./MinimumWaitingTime.java)
 * [Class Photos](./ClassPhotos.java)
 * [Tandem Bicycle](./TandemBicycle.java)
+* [Remove Duplicates From Linked List](./RemoveDuplicatesFromLinkedList.java)
