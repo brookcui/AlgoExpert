@@ -21,6 +21,7 @@ AlgoExpert solutions.
 * [Class Photos](./Easy/ClassPhotos.java)
 * [Tandem Bicycle](./Easy/TandemBicycle.java)
 * [Remove Duplicates From Linked List](./Easy/RemoveDuplicatesFromLinkedList.java)
+* [Nth Fibonacci](./Easy/NthFibonacci.java)
 
 ### [Medium](./Medium/)
 
