@@ -28,6 +28,7 @@ AlgoExpert solutions.
 * [Bubble Sort](./Easy/BubbleSort.java)
 * [Insertion Sort](./Easy/InsertionSort.java)
 * [Selection Sort](./Easy/SelectionSort.java)
+* [Palindrome Check](./Easy/PalindromeCheck.java)
 
 ### [Medium](./Medium/)
 

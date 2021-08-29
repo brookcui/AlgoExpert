@@ -22,3 +22,4 @@
 * [Bubble Sort](./BubbleSort.java)
 * [Insertion Sort](./InsertionSort.java)
 * [Selection Sort](./SelectionSort.java)
+* [Palindrome Check](./PalindromeCheck.java)
