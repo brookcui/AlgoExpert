@@ -26,6 +26,7 @@ AlgoExpert solutions.
 * [Binary Search](./Easy/BinarySearch.java)
 * [Find Three Largest Numbers](./Easy/FindThreeLargestNumbers.java)
 * [Bubble Sort](./Easy/BubbleSort.java)
+* [Insertion Sort](./Easy/InsertionSort.java)
 
 ### [Medium](./Medium/)
 
