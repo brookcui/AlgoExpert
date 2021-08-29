@@ -19,6 +19,7 @@ AlgoExpert solutions.
 * [Depth-first Search](./Easy/DepthFirstSearch.java)
 * [Minimum Waiting Time](./Easy/MinimumWaitingTime.java)
 * [Class Photos](./Easy/ClassPhotos.java)
+* [Tandem Bicycle](./Easy/TandemBicycle.java)
 
 ### [Medium](./Medium/)
 
