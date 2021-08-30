@@ -42,6 +42,7 @@ AlgoExpert solutions.
 * [Monotonic Array](./Medium/MonotonicArray.java)
 * [Spiral Traverse](./Medium/SpiralTraverse.java)
 * [Longest Peak](./Medium/LongestPeak.java)
+* [Array Of Products](./Medium/ArrayOfProducts.java)
 
 ### [Hard](./Hard/)
 
