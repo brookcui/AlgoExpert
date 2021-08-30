@@ -39,6 +39,7 @@ AlgoExpert solutions.
 * [Three Number Sum](./Medium/ThreeNumberSum.java)
 * [Smallest Difference](./Medium/SmallestDifference.java)
 * [Move Element To End](./Medium/MoveElementToEnd.java)
+* [Monotonic Array](./Medium/MonotonicArray.java)
 
 ### [Hard](./Hard/)
 
