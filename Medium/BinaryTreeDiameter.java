@@ -1,38 +1,37 @@
 import java.util.*;
 
 class Program {
-  // This is an input class. Do not edit.
-  static class BinaryTree {
-    public int value;
-    public BinaryTree left = null;
-    public BinaryTree right = null;
+	// This is an input class. Do not edit.
+	static class BinaryTree {
+		public int value;
+		public BinaryTree left = null;
+		public BinaryTree right = null;
 
-    public BinaryTree(int value) {
-      this.value = value;
-    }
-  }
-
-	private static int diameter;
-
-	// O(n) time | O(log(n)) space
-  public int binaryTreeDiameter(BinaryTree tree) {
-    // Write your code here.
-		if (tree == null) {
-			return 0;
+		public BinaryTree(int value) {
+			this.value = value;
 		}
-		diameter = 0;
-		dfs(tree);
-    return diameter;
-  }
-	
-	private int dfs(BinaryTree tree) {
-		if (tree == null) {
-			return 0;
+	}
+
+	// O(n) time | O(h) space
+	public int binaryTreeDiameter(BinaryTree tree) {
+		// Write your code here.
+		return helper(tree)[0];
+	}
+
+	private static int[] helper(BinaryTree root) {
+		if (root == null) {
+			return new int[] { 0, 0 };
 		}
-		int left = dfs(tree.left);
-		int right = dfs(tree.right);
-		int largerDepth = Math.max(left, right);
-		diameter = Math.max(diameter, Math.max(left + right, largerDepth));
-		return 1 + Math.max(left, right);
+		int[] leftTreeDiameterAndHeight = helper(root.left);
+		int[] rightTreeDiameterAndHeight = helper(root.right);
+		int leftTreeDiameter = leftTreeDiameterAndHeight[0];
+		int leftTreeHeight = leftTreeDiameterAndHeight[1];
+		int rightTreeDiameter = rightTreeDiameterAndHeight[0];
+		int rightTreeHeight = rightTreeDiameterAndHeight[1];
+		int maxDiameterSoFar = Math.max(leftTreeDiameter, rightTreeDiameter);
+		int longestPath = leftTreeHeight + rightTreeHeight;
+		int maxDiameter = Math.max(maxDiameterSoFar, longestPath);
+		int height = 1 + Math.max(leftTreeHeight, rightTreeHeight);
+		return new int[] { maxDiameter, height };
 	}
 }
