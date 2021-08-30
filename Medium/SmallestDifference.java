@@ -1,33 +1,32 @@
 import java.util.*;
 
 class Program {
-	// O(nlog(n) + mlog(m)) time | O(1) space
-  public static int[] smallestDifference(int[] arrayOne, int[] arrayTwo) {
-    // Write your code here.
+	// O(nlog(n)+mlog(m)) time | O(1) space
+	public static int[] smallestDifference(int[] arrayOne, int[] arrayTwo) {
+		// Write your code here.
 		Arrays.sort(arrayOne);
 		Arrays.sort(arrayTwo);
-		int l = 0;
-		int r = 0;
+		int i = 0, j = 0;
 		int smallestDiff = Integer.MAX_VALUE;
 		int diff = Integer.MAX_VALUE;
-		int[] smallestDiffPair = new int[2];
-		while (l < arrayOne.length && r < arrayTwo.length) {
-			int first = arrayOne[l];
-			int second = arrayTwo[r];
+		int[] smallestPair = new int[2];
+		while (i < arrayOne.length && j < arrayTwo.length) {
+			int first = arrayOne[i];
+			int second = arrayTwo[j];
 			if (first < second) {
 				diff = second - first;
-				l++;
+				i++;
 			} else if (first > second) {
 				diff = first - second;
-				r++;
+				j++;
 			} else {
-				return new int[] {first, second};
+				return new int[] { first, second };
 			}
 			if (diff < smallestDiff) {
 				smallestDiff = diff;
-				smallestDiffPair = new int[] {first, second};
+				smallestPair = new int[] { first, second };
 			}
 		}
-    return smallestDiffPair;
-  }
+		return smallestPair;
+	}
 }
