@@ -4,3 +4,4 @@
 * [Smallest Difference](./SmallestDifference.java)
 * [Move Element To End](./MoveElementToEnd.java)
 * [Monotonic Array](./MonotonicArray.java)
+* [Spiral Traverse](./SpiralTraverse.java)

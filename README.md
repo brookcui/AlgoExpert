@@ -40,6 +40,7 @@ AlgoExpert solutions.
 * [Smallest Difference](./Medium/SmallestDifference.java)
 * [Move Element To End](./Medium/MoveElementToEnd.java)
 * [Monotonic Array](./Medium/MonotonicArray.java)
+* [Spiral Traverse](./Medium/SpiralTraverse.java)
 
 ### [Hard](./Hard/)
 
