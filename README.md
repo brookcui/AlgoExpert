@@ -56,7 +56,8 @@ AlgoExpert solutions.
 * [Reconstruct BST (Solution 1)](./Medium/ReconstructBST.java)
   * [Reconstruct BST (Solution 2)](./Medium/ReconstructBST2.java)
 * [Invert Binary Tree](./Medium/InvertBinaryTree.java)
-* [Binary Tree Diameter](./Medium/BinaryTreeDiameter.java)
+* [Binary Tree Diameter (Solution 1)](./Medium/BinaryTreeDiameter.java)
+  * [Binary Tree Diameter (Solution 2)](./Medium/BinaryTreeDiameter2.java)
 
 ### [Hard](./Hard/)
 
