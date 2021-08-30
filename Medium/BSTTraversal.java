@@ -1,90 +1,49 @@
 import java.util.*;
 
 class Program {
-	// O(n) time | O(n) space
-  public static List<Integer> inOrderTraverse(BST tree, List<Integer> array) {
-    // Write your code here.
+	// O(n) time | O(n) space - where n is the number of nodes in the BST
+	public static List<Integer> inOrderTraverse(BST tree, List<Integer> array) {
+		// Write your code here.
 		if (tree == null) {
 			return array;
 		}
-		BST curr = tree;
-		Stack<BST> stack = new Stack<>();
-		while (curr != null || !stack.isEmpty()) {
-			while (curr != null) {
-				stack.add(curr);
-				curr = curr.left;
-			}
-			curr = stack.pop();
-			array.add(curr.value);
-			curr = curr.right;
-		}
-    return array;
-  }
+		inOrderTraverse(tree.left, array);
+		array.add(tree.value);
+		inOrderTraverse(tree.right, array);
+		return array;
+	}
 
-	// O(n) time | O(n) space
-  public static List<Integer> preOrderTraverse(BST tree, List<Integer> array) {
-    // Write your code here.
+	// O(n) time | O(n) space - where n is the number of nodes in the BST
+	public static List<Integer> preOrderTraverse(BST tree, List<Integer> array) {
+		// Write your code here.
 		if (tree == null) {
 			return array;
 		}
-		Stack<BST> stack = new Stack<>();
-		stack.add(tree);
-		while (!stack.isEmpty()) {
-			BST curr = stack.pop();
-			array.add(curr.value);
-			if (curr.right != null) {
-				stack.add(curr.right);
-			}
-			if (curr.left != null) {
-				stack.add(curr.left);
-			}
-		}
-    return array;
-  }
+		array.add(tree.value);
+		preOrderTraverse(tree.left, array);
+		preOrderTraverse(tree.right, array);
+		return array;
+	}
 
-	// O(n) time | O(n) space
-  public static List<Integer> postOrderTraverse(BST tree, List<Integer> array) {
-    // Write your code here.
+	// O(n) time | O(n) space - where n is the number of nodes in the BST
+	public static List<Integer> postOrderTraverse(BST tree, List<Integer> array) {
+		// Write your code here.
 		if (tree == null) {
 			return array;
 		}
-		Stack<BST> stack = new Stack<>();
-		stack.add(tree);
-		BST prev = null;
-		while (!stack.isEmpty()) {
-			BST curr = stack.peek();
-			if (prev == null || prev.left == curr || prev.right == curr) {
-				if (curr.left != null) {
-					stack.add(curr.left);
-				} else if (curr.right != null) {
-					stack.add(curr.right);
-				} else {
-					stack.pop();
-					array.add(curr.value);
-				}
-			} else if (curr.left == prev) {
-				if (curr.right != null) {
-					stack.add(curr.right);
-				} else {
-					stack.pop();
-					array.add(curr.value);
-				}
-			} else if (curr.right == prev) {
-				stack.pop();
-				array.add(curr.value);
-			}
-			prev = curr;
+		postOrderTraverse(tree.left, array);
+		postOrderTraverse(tree.right, array);
+		array.add(tree.value);
+		return array;
+	}
+
+	static class BST {
+		public int value;
+		public BST left;
+		public BST right;
+
+		public BST(int value) {
+			this.value = value;
 		}
-    return array;
-  }
-
-  static class BST {
-    public int value;
-    public BST left;
-    public BST right;
-
-    public BST(int value) {
-      this.value = value;
-    }
-  }
+	}
 }

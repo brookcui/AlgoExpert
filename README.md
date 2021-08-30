@@ -45,6 +45,7 @@ AlgoExpert solutions.
 * [Array Of Products](./Medium/ArrayOfProducts.java)
 * [First Duplicate Value](./Medium/FirstDuplicateValue.java)
 * [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.java)
+* [BST Construction](./Medium/BSTConstruction.java)
 
 ### [Hard](./Hard/)
 

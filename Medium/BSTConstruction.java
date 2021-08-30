@@ -1,110 +1,107 @@
 import java.util.*;
 
 class Program {
-  static class BST {
-    public int value;
-    public BST left;
-    public BST right;
+	static class BST {
+		public int value;
+		public BST left;
+		public BST right;
 
-    public BST(int value) {
-      this.value = value;
-    }
+		public BST(int value) {
+			this.value = value;
+		}
 
-		// Average: O(log(n)) time | O(1) space
-		// Worst: O(n) time | O(1) space
-    public BST insert(int value) {
-      // Write your code here.
-      // Do not edit the return statement of this method.
-			BST curr = this;
-			while (true) {
-				if (value < curr.value) {
-					if (curr.left == null) {
-						BST newNode = new BST(value);
-						curr.left = newNode;
-						break;
-					} else {
-						curr = curr.left;
-					}
+		// Average: O(log(n)) time | O(log(n)) space
+		// Worst O(n) time | O(n) space
+		public BST insert(int value) {
+			// Write your code here.
+			// Do not edit the return statement of this method.
+			if (value < this.value) {
+				if (left == null) {
+					BST newBST = new BST(value);
+					left = newBST;
 				} else {
-					if (curr.right == null) {
-						BST newNode = new BST(value);
-						curr.right = newNode;
-						break;
-					} else {
-						curr = curr.right;
-					}
+					left.insert(value);
+				}
+			} else {
+				if (right == null) {
+					BST newBST = new BST(value);
+					right = newBST;
+				} else {
+					right.insert(value);
 				}
 			}
-      return this;
-    }
+			return this;
+		}
 
-		// Average: O(log(n)) time | O(1) space
-		// Worst: O(n) time | O(1) space
-    public boolean contains(int value) {
-      // Write your code here.
-			BST curr = this;
-			while (curr != null) {
-				if (value < curr.value) {
-					curr = curr.left;
-				} else if (value > curr.value) {
-					curr = curr.right;
+		// Average: O(log(n)) time | O(log(n)) space
+		// Worst O(n) time | O(n) space
+		public boolean contains(int value) {
+			// Write your code here.
+			if (value < this.value) {
+				if (left == null) {
+					return false;
 				} else {
-					return true;
+					return left.contains(value);
 				}
+			} else if (value > this.value) {
+				if (right == null) {
+					return false;
+				} else {
+					return right.contains(value);
+				}
+			} else {
+				return true;
 			}
-      return false;
-    }
+		}
 
-		// Average: O(log(n)) time | O(1) space
-		// Worst: O(n) time | O(1) space
-    public BST remove(int value) {
-      // Write your code here.
-      // Do not edit the return statement of this method.
+		// Average: O(log(n)) time | O(log(n)) space
+		// Worst O(n) time | O(n) space
+		public BST remove(int value) {
+			// Write your code here.
+			// Do not edit the return statement of this method.
 			remove(value, null);
-      return this;
-    }
-		
+			return this;
+		}
+
 		private void remove(int value, BST parent) {
-			BST curr = this;
-			while (curr != null) {
-				if (value < curr.value) {
-					parent = curr;
-					curr = curr.left;
-				} else if (value > curr.value) {
-					parent = curr;
-					curr = curr.right;
-				} else {
-					if (curr.left != null && curr.right != null) {
-						curr.value = curr.right.getMinValue();
-						curr.right.remove(curr.value, curr);
-					} else if (parent == null) {
-						if (curr.left != null) {
-							curr.value = curr.left.value;
-							curr.right = curr.left.right;
-							curr.left = curr.left.left;
-						} else if (curr.right != null) {
-							curr.value = curr.right.value;
-							curr.left = curr.right.left;
-							curr.right = curr.right.right;
-						} else {
-							// do nothing
-						}
-					} else if (parent.left == curr) {
-						parent.left = curr.left != null ? curr.left : curr.right;
-					} else if (parent.right == curr) {
-						parent.right = curr.left != null ? curr.left : curr.right;
+			if (value < this.value) {
+				if (left != null) {
+					left.remove(value, this);
+				}
+			} else if (value > this.value) {
+				if (right != null) {
+					right.remove(value, this);
+				}
+			} else {
+				if (left != null && right != null) {
+					this.value = right.getMinValue();
+					right.remove(this.value, this);
+				} else if (parent == null) {
+					if (left != null) {
+						this.value = left.value;
+						right = left.right;
+						left = left.left;
+					} else if (right != null) {
+						this.value = right.value;
+						left = right.left;
+						right = right.right;
+					} else {
+						// do nothing
 					}
-					break;
+				} else if (parent.left == this) {
+					parent.left = left != null ? left : right;
+				} else if (parent.right == this) {
+					parent.right = left != null ? left : right;
 				}
 			}
 		}
-		
+
 		private int getMinValue() {
 			if (left == null) {
-				return value;
+				return this.value;
 			} else {
 				return left.getMinValue();
 			}
 		}
-  }
+	}
 }
