@@ -22,4 +22,5 @@
 * [Invert Binary Tree](./InvertBinaryTree.java)
 * [Binary Tree Diameter (Solution 1)](./BinaryTreeDiameter.java)
   * [Binary Tree Diameter (Solution 2)](./BinaryTreeDiameter2.java)
-* [Find Successor](./FindSuccessor.java)
+* [Find Successor (Solution 1)](./FindSuccessor.java)
+  * [Find Successor (Solution 2)](./FindSuccessor2.java)
