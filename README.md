@@ -44,6 +44,7 @@ AlgoExpert solutions.
 * [Longest Peak](./Medium/LongestPeak.java)
 * [Array Of Products](./Medium/ArrayOfProducts.java)
 * [First Duplicate Value](./Medium/FirstDuplicateValue.java)
+* [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.java)
 
 ### [Hard](./Hard/)
 
