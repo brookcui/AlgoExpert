@@ -13,4 +13,5 @@
 * [Validate BST](./ValidateBST.java)
 * [BST Traversal (Solution 1)](./BSTTraversal.java)
   * [BST Traversal (Solution 2)](./BSTTraversal2.java)
-* [Min Height BST](./MinHeightBST.java)
+* [Min Height BST (Solution 1)](./MinHeightBST.java)
+  * [Min Height BST (Solution 2)](./MinHeightBST2.java)
