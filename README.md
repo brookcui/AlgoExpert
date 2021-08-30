@@ -55,6 +55,7 @@ AlgoExpert solutions.
   * [Find Kth Largest Value In BST (Solution 2)](./Medium/FindKthLargestValueInBST2.java)
 * [Reconstruct BST (Solution 1)](./Medium/ReconstructBST.java)
   * [Reconstruct BST (Solution 2)](./Medium/ReconstructBST2.java)
+* [Invert Binary Tree](./Medium/InvertBinaryTree.java)
 
 ### [Hard](./Hard/)
 

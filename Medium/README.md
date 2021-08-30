@@ -19,3 +19,4 @@
   * [Find Kth Largest Value In BST (Solution 2)](./FindKthLargestValueInBST2.java)
 * [Reconstruct BST (Solution 1)](./ReconstructBST.java)
   * [Reconstruct BST (Solution 2)](./ReconstructBST2.java)
+* [Invert Binary Tree](./InvertBinaryTree.java)
