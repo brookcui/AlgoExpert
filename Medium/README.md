@@ -17,4 +17,5 @@
   * [Min Height BST (Solution 2)](./MinHeightBST2.java)
 * [Find Kth Largest Value In BST (Solution 1)](./FindKthLargestValueInBST.java)
   * [Find Kth Largest Value In BST (Solution 2)](./FindKthLargestValueInBST2.java)
-* [Reconstruct BST](./ReconstructBST.java)
+* [Reconstruct BST (Solution 1)](./ReconstructBST.java)
+  * [Reconstruct BST (Solution 2)](./ReconstructBST2.java)
