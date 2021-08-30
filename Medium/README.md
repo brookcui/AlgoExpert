@@ -24,3 +24,4 @@
   * [Binary Tree Diameter (Solution 2)](./BinaryTreeDiameter2.java)
 * [Find Successor (Solution 1)](./FindSuccessor.java)
   * [Find Successor (Solution 2)](./FindSuccessor2.java)
+* [Height Balanced Binary Tree](./HeightBalancedBinaryTree.java)
