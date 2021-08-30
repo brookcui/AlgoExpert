@@ -47,6 +47,7 @@ AlgoExpert solutions.
 * [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.java)
 * [BST Construction](./Medium/BSTConstruction.java)
 * [Validate BST](./Medium/ValidateBST.java)
+* [BST Traversal](./Medium/BSTTraversal.java)
 
 ### [Hard](./Hard/)
 

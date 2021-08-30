@@ -11,3 +11,4 @@
 * [Merge Overlapping Intervals](./MergeOverlappingIntervals.java)
 * [BST Construction](./BSTConstruction.java)
 * [Validate BST](./ValidateBST.java)
+* [BST Traversal](./BSTTraversal.java)
