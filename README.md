@@ -41,6 +41,7 @@ AlgoExpert solutions.
 * [Move Element To End](./Medium/MoveElementToEnd.java)
 * [Monotonic Array](./Medium/MonotonicArray.java)
 * [Spiral Traverse](./Medium/SpiralTraverse.java)
+* [Longest Peak](./Medium/LongestPeak.java)
 
 ### [Hard](./Hard/)
 
