@@ -15,4 +15,5 @@
   * [BST Traversal (Solution 2)](./BSTTraversal2.java)
 * [Min Height BST (Solution 1)](./MinHeightBST.java)
   * [Min Height BST (Solution 2)](./MinHeightBST2.java)
-* [Find Kth Largest Value In BST](./FindKthLargestValueInBST.java)
+* [Find Kth Largest Value In BST (Solution 1)](./FindKthLargestValueInBST.java)
+  * [Find Kth Largest Value In BST (Solution 2)](./FindKthLargestValueInBST2.java)

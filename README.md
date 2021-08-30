@@ -51,7 +51,8 @@ AlgoExpert solutions.
   * [BST Traversal (Solution 2)](./Medium/BSTTraversal2.java)
 * [Min Height BST (Solution 1)](./Medium/MinHeightBST.java)
   * [Min Height BST (Solution 2)](./Medium/MinHeightBST2.java)
-* [Find Kth Largest Value In BST](./Medium/FindKthLargestValueInBST.java)
+* [Find Kth Largest Value In BST (Solution 1)](./Medium/FindKthLargestValueInBST.java)
+  * [Find Kth Largest Value In BST (Solution 2)](./Medium/FindKthLargestValueInBST2.java)
 
 ### [Hard](./Hard/)
 
