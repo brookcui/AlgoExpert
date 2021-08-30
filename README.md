@@ -58,6 +58,7 @@ AlgoExpert solutions.
 * [Invert Binary Tree](./Medium/InvertBinaryTree.java)
 * [Binary Tree Diameter (Solution 1)](./Medium/BinaryTreeDiameter.java)
   * [Binary Tree Diameter (Solution 2)](./Medium/BinaryTreeDiameter2.java)
+* [Find Successor](./Medium/FindSuccessor.java)
 
 ### [Hard](./Hard/)
 
