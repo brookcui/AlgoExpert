@@ -1,38 +1,31 @@
 import java.util.*;
 
 class Program {
-  // This is an input class. Do not edit.
-  static class BST {
-    public int value;
-    public BST left = null;
-    public BST right = null;
+	// This is an input class. Do not edit.
+	static class BST {
+		public int value;
+		public BST left = null;
+		public BST right = null;
 
-    public BST(int value) {
-      this.value = value;
-    }
-  }
+		public BST(int value) {
+			this.value = value;
+		}
+	}
 
-	private int visited;
-	private int prevValue;
+	// O(n) time | O(n) space - where n is the number of nodes in the tree
+	public int findKthLargestValueInBst(BST tree, int k) {
+		// Write your code here.
+		List<Integer> sortedValues = new ArrayList<>();
+		inorderTraverse(tree, sortedValues);
+		return sortedValues.get(sortedValues.size() - k);
+	}
 
-	// O(h + k) time | O(h) space
-  public int findKthLargestValueInBst(BST tree, int k) {
-    // Write your code here.
-		visited = 0;
-		prevValue = -1;
-		traverse(tree, k);
-    return prevValue;
-  }
-	
-	private void traverse(BST node, int k) {
-		if (node == null || visited >= k) {
+	private static void inorderTraverse(BST root, List<Integer> values) {
+		if (root == null) {
 			return;
 		}
-		traverse(node.right, k);
-		if (visited < k) {
-			visited += 1;
-			prevValue = node.value;
-			traverse(node.left, k);
-		}
+		inorderTraverse(root.left, values);
+		values.add(root.value);
+		inorderTraverse(root.right, values);
 	}
 }
