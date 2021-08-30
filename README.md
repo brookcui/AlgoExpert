@@ -46,6 +46,7 @@ AlgoExpert solutions.
 * [First Duplicate Value](./Medium/FirstDuplicateValue.java)
 * [Merge Overlapping Intervals](./Medium/MergeOverlappingIntervals.java)
 * [BST Construction](./Medium/BSTConstruction.java)
+* [Validate BST](./Medium/ValidateBST.java)
 
 ### [Hard](./Hard/)
 
