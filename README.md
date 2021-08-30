@@ -43,6 +43,7 @@ AlgoExpert solutions.
 * [Spiral Traverse](./Medium/SpiralTraverse.java)
 * [Longest Peak](./Medium/LongestPeak.java)
 * [Array Of Products](./Medium/ArrayOfProducts.java)
+* [First Duplicate Value](./Medium/FirstDuplicateValue.java)
 
 ### [Hard](./Hard/)
 

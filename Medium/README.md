@@ -7,3 +7,4 @@
 * [Spiral Traverse](./SpiralTraverse.java)
 * [Longest Peak](./LongestPeak.java)
 * [Array Of Products](./ArrayOfProducts.java)
+* [First Duplicate Value](./FirstDuplicateValue.java)
