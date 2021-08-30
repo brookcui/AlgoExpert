@@ -36,6 +36,8 @@ AlgoExpert solutions.
 
 ### [Medium](./Medium/)
 
+* [Three Number Sum](./Medium/ThreeNumberSum.java)
+
 ### [Hard](./Hard/)
 
 ### [Very Hard](./VeryHard/)
