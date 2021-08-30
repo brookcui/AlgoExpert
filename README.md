@@ -49,6 +49,7 @@ AlgoExpert solutions.
 * [Validate BST](./Medium/ValidateBST.java)
 * [BST Traversal (Solution 1)](./Medium/BSTTraversal.java)
   * [BST Traversal (Solution 2)](./Medium/BSTTraversal2.java)
+* [Min Height BST](./Medium/MinHeightBST.java)
 
 ### [Hard](./Hard/)
 

@@ -1,22 +1,26 @@
 import java.util.*;
 
 class Program {
-	// O(n) time | O(n) space
+  // O(nlog(n)) time | O(n) space - where n is the length of the array
   public static BST minHeightBst(List<Integer> array) {
     // Write your code here.
-    return constructMinHeightBst(array, 0, array.size() - 1);
+    return constructMinHeightBst(array, null, 0, array.size() - 1);
   }
-	
-	private static BST constructMinHeightBst(List<Integer> array, int start, int end) {
-		if (start > end) {
-			return null;
-		}
-		int middle = start + (end - start) / 2;
-		BST bst = new BST(array.get(middle));
-		bst.left = constructMinHeightBst(array, start, middle - 1);
-		bst.right = constructMinHeightBst(array, middle + 1, end);
-		return bst;
-	}
+
+  private static BST constructMinHeightBst(List<Integer> array, BST root, int startIdx, int endIdx) {
+    if (startIdx > endIdx) {
+      return null;
+    }
+    int midIdx = startIdx + (endIdx - startIdx) / 2;
+    if (root == null) {
+      root = new BST(array.get(midIdx));
+    } else {
+      root.insert(array.get(midIdx)); // takes O(log(n)) time
+    }
+    constructMinHeightBst(array, root, startIdx, midIdx - 1);
+    constructMinHeightBst(array, root, midIdx + 1, endIdx);
+    return root;
+  }
 
   static class BST {
     public int value;
