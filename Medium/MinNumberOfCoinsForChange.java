@@ -1,22 +1,23 @@
 import java.util.*;
 
 class Program {
-	// O(n) time | O(n) space
-  public static int minNumberOfCoinsForChange(int n, int[] denoms) {
-    // Write your code here.
+	// O(nd) time | O(n) space
+	public static int minNumberOfCoinsForChange(int n, int[] denoms) {
+		// Write your code here.
 		int[] dp = new int[n + 1];
-		Arrays.fill(dp, Integer.MAX_VALUE - 1);
+		Arrays.fill(dp, Integer.MAX_VALUE);
 		dp[0] = 0;
 		for (int denom : denoms) {
-			for (int amount = 1; amount <= n; amount++) {
+			for (int amount = 0; amount <= n; amount++) {
 				if (denom <= amount) {
-					dp[amount] = Math.min(dp[amount], dp[amount - denom] + 1);
+					int toCompare = Integer.MAX_VALUE;
+					if (dp[amount - denom] != Integer.MAX_VALUE) {
+						toCompare = dp[amount - denom] + 1;
+					}
+					dp[amount] = Math.min(dp[amount], toCompare);
 				}
 			}
 		}
-		if (dp[n] == Integer.MAX_VALUE - 1) {
-			return -1;
-		}
-    return dp[n];
-  }
+		return dp[n] != Integer.MAX_VALUE ? dp[n] : -1;
+	}
 }

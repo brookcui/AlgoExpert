@@ -64,6 +64,7 @@ AlgoExpert solutions.
 * [Max Subset Sum No Adjacent (Solution 1)](./Medium/MaxSubsetSumNoAdjacent.java)
   * [Max Subset Sum No Adjacent (Solution 2)](./Medium/MaxSubsetSumNoAdjacent2.java)
 * [Number Of Ways To Make Change](./Medium/NumberOfWaysToMakeChange.java)
+* [Min Number Of Coins For Change](./Medium/MinNumberOfCoinsForChange.java)
 
 ### [Hard](./Hard/)
 

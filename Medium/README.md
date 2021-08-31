@@ -28,3 +28,4 @@
 * [Max Subset Sum No Adjacent (Solution 1)](./MaxSubsetSumNoAdjacent.java)
   * [Max Subset Sum No Adjacent (Solution 2)](./MaxSubsetSumNoAdjacent2.java)
 * [Number Of Ways To Make Change](./NumberOfWaysToMakeChange.java)
+* [Min Number Of Coins For Change](./MinNumberOfCoinsForChange.java)
