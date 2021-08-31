@@ -67,6 +67,7 @@ AlgoExpert solutions.
 * [Min Number Of Coins For Change](./Medium/MinNumberOfCoinsForChange.java)
 * [Levenshtein Distance (Solution 1)](./Medium/LevenshteinDistance.java)
   * [Levenshtein Distance (Solution 2)](./Medium/LevenshteinDistance2.java)
+* [Number Of Ways To Traverse Graph](./Medium/NumberOfWaysToTraverseGraph.java)
 
 ### [Hard](./Hard/)
 
