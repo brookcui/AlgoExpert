@@ -65,7 +65,8 @@ AlgoExpert solutions.
   * [Max Subset Sum No Adjacent (Solution 2)](./Medium/MaxSubsetSumNoAdjacent2.java)
 * [Number Of Ways To Make Change](./Medium/NumberOfWaysToMakeChange.java)
 * [Min Number Of Coins For Change](./Medium/MinNumberOfCoinsForChange.java)
-* [Levenshtein Distance](./Medium/LevenshteinDistance.java)
+* [Levenshtein Distance (Solution 1)](./Medium/LevenshteinDistance.java)
+  * [Levenshtein Distance (Solution 2)](./Medium/LevenshteinDistance2.java)
 
 ### [Hard](./Hard/)
 

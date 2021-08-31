@@ -29,4 +29,5 @@
   * [Max Subset Sum No Adjacent (Solution 2)](./MaxSubsetSumNoAdjacent2.java)
 * [Number Of Ways To Make Change](./NumberOfWaysToMakeChange.java)
 * [Min Number Of Coins For Change](./MinNumberOfCoinsForChange.java)
-* [Levenshtein Distance](./LevenshteinDistance.java)
+* [Levenshtein Distance (Solution 1)](./LevenshteinDistance.java)
+  * [Levenshtein Distance (Solution 2)](./LevenshteinDistance2.java)
