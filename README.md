@@ -63,6 +63,7 @@ AlgoExpert solutions.
 * [Height Balanced Binary Tree](./Medium/HeightBalancedBinaryTree.java)
 * [Max Subset Sum No Adjacent (Solution 1)](./Medium/MaxSubsetSumNoAdjacent.java)
   * [Max Subset Sum No Adjacent (Solution 2)](./Medium/MaxSubsetSumNoAdjacent2.java)
+* [Number Of Ways To Make Change](./Medium/NumberOfWaysToMakeChange.java)
 
 ### [Hard](./Hard/)
 
