@@ -61,6 +61,7 @@ AlgoExpert solutions.
 * [Find Successor (Solution 1)](./Medium/FindSuccessor.java)
   * [Find Successor (Solution 2)](./Medium/FindSuccessor2.java)
 * [Height Balanced Binary Tree](./Medium/HeightBalancedBinaryTree.java)
+* [Max Subset Sum No Adjacent](./Medium/MaxSubsetSumNoAdjacent.java)
 
 ### [Hard](./Hard/)
 

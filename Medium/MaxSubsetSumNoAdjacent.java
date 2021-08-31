@@ -2,8 +2,8 @@ import java.util.*;
 
 class Program {
 	// O(n) time | O(n) space
-  public static int maxSubsetSumNoAdjacent(int[] array) {
-    // Write your code here.
+	public static int maxSubsetSumNoAdjacent(int[] array) {
+		// Write your code here.
 		if (array.length == 0) {
 			return 0;
 		} else if (array.length == 1) {
@@ -14,6 +14,6 @@ class Program {
 		for (int i = 2; i < array.length; i++) {
 			dp[i] = Math.max(dp[i - 1], dp[i - 2] + array[i]);
 		}
-    return dp[dp.length - 1];
-  }
+		return dp[array.length - 1];
+	}
 }
