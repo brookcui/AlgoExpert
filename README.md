@@ -71,6 +71,7 @@ AlgoExpert solutions.
 * [Kadane's Algorithm](./Medium/KadanesAlgorithm.java)
 * [Single Cycle Check](./Medium/SingleCycleCheck.java)
 * [Breadth-first Search](./Medium/BreadthFirstSearch.java)
+* [River Sizes](./Medium/RiverSizes.java)
 
 ### [Hard](./Hard/)
 

@@ -35,3 +35,4 @@
 * [Kadane's Algorithm](./KadanesAlgorithm.java)
 * [Single Cycle Check](./SingleCycleCheck.java)
 * [Breadth-first Search](./BreadthFirstSearch.java)
+* [River Sizes](./RiverSizes.java)
