@@ -13,16 +13,16 @@ class Program {
       this.name = name;
     }
 
-		// O(v + e) time | O(v) space
+    // O(n) time | O(n) space
     public List<String> breadthFirstSearch(List<String> array) {
       // Write your code here.
-			Queue<Node> queue = new LinkedList<>();
-			queue.add(this);
-			while (!queue.isEmpty()) {
-				Node curr = queue.poll();
-				array.add(curr.name);
-				queue.addAll(curr.children);
-			}
+      Queue<Node> queue = new LinkedList<>();
+      queue.add(this);
+      while (!queue.isEmpty()) {
+        Node node = queue.poll();
+        array.add(node.name);
+        queue.addAll(node.children);
+      }
       return array;
     }
 

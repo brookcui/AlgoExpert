@@ -34,3 +34,4 @@
 * [Number Of Ways To Traverse Graph](./NumberOfWaysToTraverseGraph.java)
 * [Kadane's Algorithm](./KadanesAlgorithm.java)
 * [Single Cycle Check](./SingleCycleCheck.java)
+* [Breadth-first Search](./BreadthFirstSearch.java)

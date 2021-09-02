@@ -70,6 +70,7 @@ AlgoExpert solutions.
 * [Number Of Ways To Traverse Graph](./Medium/NumberOfWaysToTraverseGraph.java)
 * [Kadane's Algorithm](./Medium/KadanesAlgorithm.java)
 * [Single Cycle Check](./Medium/SingleCycleCheck.java)
+* [Breadth-first Search](./Medium/BreadthFirstSearch.java)
 
 ### [Hard](./Hard/)
 
