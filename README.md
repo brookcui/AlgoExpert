@@ -69,6 +69,7 @@ AlgoExpert solutions.
   * [Levenshtein Distance (Solution 2)](./Medium/LevenshteinDistance2.java)
 * [Number Of Ways To Traverse Graph](./Medium/NumberOfWaysToTraverseGraph.java)
 * [Kadane's Algorithm](./Medium/KadanesAlgorithm.java)
+* [Single Cycle Check](./Medium/SingleCycleCheck.java)
 
 ### [Hard](./Hard/)
 
