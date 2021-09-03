@@ -77,6 +77,7 @@ AlgoExpert solutions.
 * [Cycle In Graph](./Medium/CycleInGraph.java)
 * [Minimum Passes Of Matrix](./Medium/MinimumPassesOfMatrix.java)
 * [Task Assignment](./Medium/TaskAssignment.java)
+* [Valid Starting City](./Medium/ValidStartingCity.java)
 
 ### [Hard](./Hard/)
 
