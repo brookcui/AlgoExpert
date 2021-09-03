@@ -73,6 +73,7 @@ AlgoExpert solutions.
 * [Breadth-first Search](./Medium/BreadthFirstSearch.java)
 * [River Sizes](./Medium/RiverSizes.java)
 * [Youngest Common Ancestor](./Medium/YoungestCommonAncestor.java)
+* [Remove Islands](./Medium/RemoveIslands.java)
 
 ### [Hard](./Hard/)
 

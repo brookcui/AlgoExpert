@@ -37,3 +37,4 @@
 * [Breadth-first Search](./BreadthFirstSearch.java)
 * [River Sizes](./RiverSizes.java)
 * [Youngest Common Ancestor](./YoungestCommonAncestor.java)
+* [Remove Islands](./RemoveIslands.java)
