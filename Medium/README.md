@@ -39,3 +39,4 @@
 * [Youngest Common Ancestor](./YoungestCommonAncestor.java)
 * [Remove Islands](./RemoveIslands.java)
 * [Cycle In Graph](./CycleInGraph.java)
+* [Minimum Passes Of Matrix](./MinimumPassesOfMatrix.java)

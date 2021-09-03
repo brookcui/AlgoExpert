@@ -75,6 +75,7 @@ AlgoExpert solutions.
 * [Youngest Common Ancestor](./Medium/YoungestCommonAncestor.java)
 * [Remove Islands](./Medium/RemoveIslands.java)
 * [Cycle In Graph](./Medium/CycleInGraph.java)
+* [Minimum Passes Of Matrix](./Medium/MinimumPassesOfMatrix.java)
 
 ### [Hard](./Hard/)
 
