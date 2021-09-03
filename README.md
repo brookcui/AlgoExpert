@@ -74,6 +74,7 @@ AlgoExpert solutions.
 * [River Sizes](./Medium/RiverSizes.java)
 * [Youngest Common Ancestor](./Medium/YoungestCommonAncestor.java)
 * [Remove Islands](./Medium/RemoveIslands.java)
+* [Cycle In Graph](./Medium/CycleInGraph.java)
 
 ### [Hard](./Hard/)
 

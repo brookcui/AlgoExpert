@@ -1,42 +1,42 @@
 import java.util.*;
 
 class Program {
-	// O(v + e) time | O(v) space
-  public boolean cycleInGraph(int[][] edges) {
-    // Write your code here.
+	// O(v + e) time | O(v) space - where v is the number of vertices
+	// and e is the number of edges in the graph
+	public boolean cycleInGraph(int[][] edges) {
+		// Write your code here.
 		State[] states = new State[edges.length];
-		Arrays.fill(states, State.TO_VISIT);
-		for (int vertex = 0; vertex < edges.length; vertex++) {
-			if (states[vertex] == State.TO_VISIT) {
-				if (dfs(vertex, edges, states)) {
-					return true;
-				}
-			}
+		for (int v = 0; v < edges.length; v++) {
+			states[v] = State.TO_VISIT;
 		}
-    return false;
-  }
-	
-	private enum State {
-		TO_VISIT,
-		VISITING,
-		VISITED;
-	}
-	
-	private boolean dfs(int vertex, int[][] edges, State[] states) {
-		states[vertex] = State.VISITING;
-		for (int neighbor : edges[vertex]) {
-			State neighborState = states[neighbor];
-			if (neighborState.equals(State.VISITING)) {
-				return true;
-			}
-			if (neighborState.equals(State.VISITED)) {
-				continue;
-			}
-			if (dfs(neighbor, edges, states)) {
+		for (int v = 0; v < edges.length; v++) {
+			boolean containsCycle = dfs(v, edges, states);
+			if (containsCycle) {
 				return true;
 			}
 		}
-		states[vertex] = State.VISITED;
 		return false;
+	}
+
+	private static boolean dfs(int node, int[][] edges, State[] states) {
+		if (states[node].equals(State.VISITED)) {
+			return false;
+		}
+		if (states[node].equals(State.VISITING)) {
+			return true;
+		}
+		states[node] = State.VISITING;
+		for (int neighbor : edges[node]) {
+			boolean containsCycle = dfs(neighbor, edges, states);
+			if (containsCycle) {
+				return true;
+			}
+		}
+		states[node] = State.VISITED;
+		return false;
+	}
+
+	private static enum State {
+		TO_VISIT, VISITING, VISITED;
 	}
 }
