@@ -72,6 +72,7 @@ AlgoExpert solutions.
 * [Single Cycle Check](./Medium/SingleCycleCheck.java)
 * [Breadth-first Search](./Medium/BreadthFirstSearch.java)
 * [River Sizes](./Medium/RiverSizes.java)
+* [Youngest Common Ancestor](./Medium/YoungestCommonAncestor.java)
 
 ### [Hard](./Hard/)
 
