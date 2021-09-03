@@ -40,3 +40,4 @@
 * [Remove Islands](./RemoveIslands.java)
 * [Cycle In Graph](./CycleInGraph.java)
 * [Minimum Passes Of Matrix](./MinimumPassesOfMatrix.java)
+* [Task Assignment](./TaskAssignment.java)

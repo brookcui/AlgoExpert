@@ -76,6 +76,7 @@ AlgoExpert solutions.
 * [Remove Islands](./Medium/RemoveIslands.java)
 * [Cycle In Graph](./Medium/CycleInGraph.java)
 * [Minimum Passes Of Matrix](./Medium/MinimumPassesOfMatrix.java)
+* [Task Assignment](./Medium/TaskAssignment.java)
 
 ### [Hard](./Hard/)
 
