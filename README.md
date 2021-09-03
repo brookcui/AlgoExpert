@@ -78,6 +78,7 @@ AlgoExpert solutions.
 * [Minimum Passes Of Matrix](./Medium/MinimumPassesOfMatrix.java)
 * [Task Assignment](./Medium/TaskAssignment.java)
 * [Valid Starting City](./Medium/ValidStartingCity.java)
+* [Min Heap Construction](./Medium/MinHeapConstruction.java)
 
 ### [Hard](./Hard/)
 
