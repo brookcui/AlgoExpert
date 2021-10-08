@@ -82,4 +82,6 @@ AlgoExpert solutions.
 
 ### [Hard](./Hard/)
 
+* [Four Number Sum](./Hard/FourNumberSum.java)
+
 ### [Very Hard](./VeryHard/)
