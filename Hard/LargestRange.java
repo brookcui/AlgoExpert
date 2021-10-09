@@ -2,35 +2,39 @@ import java.util.*;
 
 class Program {
 	// O(n) time | O(n) space
-  public static int[] largestRange(int[] array) {
-    // Write your code here.
-		int[] largestRange = new int[2];
-		int longestLen = 0;
-		Map<Integer, Boolean> visited = new HashMap<>();
+	public static int[] largestRange(int[] array) {
+		// Write your code here.
+		// record each number in a hash table
+		Map<Integer, Boolean> records = new HashMap<>();
 		for (int num : array) {
-			visited.put(num, true);
+			records.put(num, true);
 		}
+		// explore possible ranges
+		int longestLength = 0;
+		int[] largestRange = new int[] { -1, -1 };
 		for (int num : array) {
-			if (!visited.containsKey(num) || !visited.get(num)) {
+			if (!records.get(num)) { // skip those visited ones
 				continue;
 			}
-			int left = num, right = num, currLen = 1;
-			while (visited.containsKey(left-1)) {
+			records.put(num, false); // mark as visited
+			int length = 1;
+			int left = num - 1;
+			while (records.containsKey(left)) {
+				records.put(left, false); // mark as visited
 				left--;
-				currLen++;
-				visited.put(left, false);
+				length++;
 			}
-			while (visited.containsKey(right+1)) {
+			int right = num + 1;
+			while (records.containsKey(right)) {
+				records.put(right, false); // mark as visited
 				right++;
-				currLen++;
-				visited.put(right, false);
+				length++;
 			}
-			if (currLen > longestLen) {
-				longestLen = currLen;
-				largestRange[0] = left;
-				largestRange[1] = right;
+			if (length > longestLength) { // the longer range wins
+				longestLength = length;
+				largestRange = new int[] { left + 1, right - 1 };
 			}
 		}
-    return largestRange;
-  }
+		return largestRange;
+	}
 }

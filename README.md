@@ -84,5 +84,6 @@ AlgoExpert solutions.
 
 * [Four Number Sum](./Hard/FourNumberSum.java)
 * [Subarray Sort](./Hard/SubarraySort.java)
+* [Largest Range](./Hard/LargestRange.java)
 
 ### [Very Hard](./VeryHard/)
