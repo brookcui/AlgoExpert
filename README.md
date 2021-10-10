@@ -86,5 +86,6 @@ AlgoExpert solutions.
 * [Subarray Sort](./Hard/SubarraySort.java)
 * [Largest Range](./Hard/LargestRange.java)
 * [Min Rewards](./Hard/MinRewards.java)
+* [Zigzag Traverse](./Hard/ZigzagTraverse.java)
 
 ### [Very Hard](./VeryHard/)

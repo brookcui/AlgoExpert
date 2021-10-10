@@ -1,46 +1,43 @@
 import java.util.*;
 
 class Program {
-	// O(n) time | O(n) space
-  public static List<Integer> zigzagTraverse(List<List<Integer>> array) {
-    // Write your code here.
-		int m = array.size(); // height
-		int n = array.get(0).size(); // width
-		List<Integer> output = new ArrayList<>();
-		int r = 0, c = 0;
-		boolean goingDown = true;
-		while (!isOutOfBounds(r, c, m, n)) {
-			output.add(array.get(r).get(c));
-			if (goingDown) {
-				if (c == 0 || r == m - 1) {
-					goingDown = false; // turn
-					if (r == m - 1) {
-						c++;
+	// O(mn) time | O(mn) space
+	public static List<Integer> zigzagTraverse(List<List<Integer>> array) {
+		// Write your code here.
+		int height = array.size();
+		int width = array.get(0).size();
+		List<Integer> output = new ArrayList<Integer>();
+		boolean isGoingDown = true;
+		int row = 0;
+		int col = 0;
+		while (0 <= row && row < height && 0 <= col && col < width) {
+			output.add(array.get(row).get(col));
+			if (isGoingDown) {
+				if (col == 0 || row == height - 1) {
+					isGoingDown = false;
+					if (row == height - 1) {
+						col++;
 					} else {
-						r++;
+						row++;
 					}
 				} else {
-					r++;
-					c--;
+					row++;
+					col--;
 				}
 			} else {
-				if (r == 0 || c == n - 1) {
-					goingDown = true;
-					if (c == n - 1) {
-						r++;
+				if (row == 0 || col == width - 1) {
+					isGoingDown = true;
+					if (col == width - 1) {
+						row++;
 					} else {
-						c++;
+						col++;
 					}
 				} else {
-					r--;
-					c++;
+					row--;
+					col++;
 				}
 			}
 		}
-    return output;
-  }
-	
-	private static boolean isOutOfBounds(int r, int c, int m, int n) {
-		return r < 0 || r >= m || c < 0 || c >= n;
+		return output;
 	}
 }
