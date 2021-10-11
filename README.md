@@ -89,5 +89,6 @@ AlgoExpert solutions.
 * [Zigzag Traverse](./Hard/ZigzagTraverse.java)
 * [Same BSTs (Solution 1)](./Hard/SameBSTs.java)
   * [Same BSTs (Solution 2)](./Hard/SameBSTs2.java)
+* [Validate Three Nodes](./Hard/ValidateThreeNodes.java)
 
 ### [Very Hard](./VeryHard/)
