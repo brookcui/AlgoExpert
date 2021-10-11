@@ -90,5 +90,6 @@ AlgoExpert solutions.
 * [Same BSTs (Solution 1)](./Hard/SameBSTs.java)
   * [Same BSTs (Solution 2)](./Hard/SameBSTs2.java)
 * [Validate Three Nodes](./Hard/ValidateThreeNodes.java)
+* [Max Path Sum In Binary Tree](./Hard/MaxPathSumInBinaryTree.java)
 
 ### [Very Hard](./VeryHard/)
