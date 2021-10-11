@@ -5,4 +5,5 @@
 * [Largest Range](./LargestRange.java)
 * [Min Rewards](./MinRewards.java)
 * [Zigzag Traverse](./ZigzagTraverse.java)
-* [Same BSTs](./SameBSTs.java)
+* [Same BSTs (Solution 1)](./SameBSTs.java)
+  * [Same BSTs (Solution 2)](./SameBSTs2.java)
