@@ -1,94 +1,62 @@
 import java.util.*;
 
 class Program {
-  // This is an input class. Do not edit.
-  static class BinaryTree {
-    public int value;
-    public BinaryTree left = null;
-    public BinaryTree right = null;
+	// This is an input class. Do not edit.
+	static class BinaryTree {
+		public int value;
+		public BinaryTree left = null;
+		public BinaryTree right = null;
 
-    public BinaryTree(int value) {
-      this.value = value;
-    }
-  }
+		public BinaryTree(int value) {
+			this.value = value;
+		}
+	}
 
 	// O(n) time | O(n) space
-  public ArrayList<Integer> findNodesDistanceK(BinaryTree tree, int target, int k) {
-    // Write your code here.
-		BinaryTree targetNode = searchForNode(tree, target);
-		Map<Integer, BinaryTree> nodeToParent = new HashMap<>();
-		populateNodeToParent(tree, nodeToParent, null);
-		return searchNodesDistanceK(targetNode, nodeToParent, k);
-  }
-	
-	private void populateNodeToParent(BinaryTree node, Map<Integer, BinaryTree> nodeToParent, BinaryTree parent) {
-		if (node != null) {
-			nodeToParent.put(node.value, parent);
-			populateNodeToParent(node.left, nodeToParent, node);
-			populateNodeToParent(node.right, nodeToParent, node);
-		}
+	public ArrayList<Integer> findNodesDistanceK(BinaryTree tree, int target, int k) {
+		// Write your code here.
+		ArrayList<Integer> nodesDistanceK = new ArrayList<Integer>();
+		// we need to find the target node and then we can populate those nodes
+		// that are exactly distance k from the target node.
+		findTargetNode(tree, target, k, nodesDistanceK);
+		return nodesDistanceK;
 	}
-	
-	private BinaryTree searchForNode(BinaryTree node, int value) {
+
+	private static int findTargetNode(BinaryTree node, int target, int k, ArrayList<Integer> nodesDistanceK) {
 		if (node == null) {
-			return null;
+			return -1;
 		}
-		if (node.value == value) {
-			return node;
+		if (node.value == target) { // hit the target!!!
+			populateSubtreeNodeAtDistanceK(node, k, nodesDistanceK); // populate all its subtree nodes with distance k
+			return 1;
 		}
-		BinaryTree left = searchForNode(node.left, value);
-		if (left != null) {
-			return left;
+		// keep searching for target node
+		int leftDistance = findTargetNode(node.left, target, k, nodesDistanceK);
+		int rightDistance = findTargetNode(node.right, target, k, nodesDistanceK);
+		if (leftDistance == k || rightDistance == k) { // backtrack until the distance from target node is K
+			nodesDistanceK.add(node.value);
 		}
-		BinaryTree right = searchForNode(node.right, value);
-		if (right != null) {
-			return right;
+		// populate subtree nodes with distance k
+		if (leftDistance != -1) {
+			populateSubtreeNodeAtDistanceK(node.right, k - leftDistance - 1, nodesDistanceK);
+			return leftDistance + 1;
 		}
-		return null;
+		if (rightDistance != -1) {
+			populateSubtreeNodeAtDistanceK(node.left, k - rightDistance - 1, nodesDistanceK);
+			return rightDistance + 1;
+		}
+		return -1;
 	}
-	
-	private static class Pair<U, V> {
-		final U first;
-		final V second;
-		
-		Pair(U first, V second) {
-			this.first = first;
-			this.second = second;
+
+	private static void populateSubtreeNodeAtDistanceK(BinaryTree node, int k, ArrayList<Integer> nodesDistanceK) {
+		if (node == null) {
+			return;
 		}
-	}
-	
-	private ArrayList<Integer> searchNodesDistanceK(BinaryTree targetNode, Map<Integer, BinaryTree> nodeToParent, int k) {
-		if (targetNode == null) {
-			return new ArrayList<>();
+		if (k == 0) {
+			nodesDistanceK.add(node.value);
+		} else {
+			populateSubtreeNodeAtDistanceK(node.left, k - 1, nodesDistanceK);
+			populateSubtreeNodeAtDistanceK(node.right, k - 1, nodesDistanceK);
 		}
-		Queue<Pair<BinaryTree, Integer>> queue = new LinkedList<>();
-		Set<BinaryTree> seen = new HashSet<>();
-		queue.add(new Pair<>(targetNode, 0));
-		seen.add(targetNode);
-		while (!queue.isEmpty()) {
-			Pair<BinaryTree, Integer> pair = queue.poll();
-			BinaryTree node = pair.first;
-			int distance = pair.second;
-			if (distance == k) {
-				ArrayList<Integer> nodeDistanceK = new ArrayList<>();
-				nodeDistanceK.add(node.value);
-				for (Pair<BinaryTree, Integer> p : queue) {
-					nodeDistanceK.add(p.first.value);
-				}
-				return nodeDistanceK;
-			}
-			List<BinaryTree> neighbors = new ArrayList<>();
-			neighbors.add(node.left);
-			neighbors.add(node.right);
-			neighbors.add(nodeToParent.get(node.value));
-			for (BinaryTree nei : neighbors) {
-				if (nei == null || seen.contains(nei)) {
-					continue;
-				}
-				seen.add(nei);
-				queue.add(new Pair<>(nei, distance + 1));
-			}
-		}
-		return new ArrayList<>();
 	}
 }
