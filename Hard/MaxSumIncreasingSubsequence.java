@@ -2,37 +2,37 @@ import java.util.*;
 
 class Program {
 	// O(n^2) time | O(n) space
-  public static List<List<Integer>> maxSumIncreasingSubsequence(int[] array) {
-    // Write your code here.
+	public static List<List<Integer>> maxSumIncreasingSubsequence(int[] array) {
+		// Write your code here.
+		int[] sequences = new int[array.length];
+		Arrays.fill(sequences, Integer.MIN_VALUE);
 		int[] dp = array.clone();
-		int[] previousIndexes = new int[array.length];
-		Arrays.fill(previousIndexes, -1);
-		int maxSumIdx = 0;
-		for (int j = 1; j < array.length; j++) {
-			int num = array[j];
-			for (int i = 0; i < j; i++) {
-				int prevNum = array[i];
-				if (num > prevNum && dp[i] + num >= dp[j]) {
-					dp[j] = dp[i] + num;
-					previousIndexes[j] = i;
+		int maxSumEndingIdx = 0;
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < i; j++) {
+				// at each index, store the maximum sum that can be accumulated
+				// also, mark the sequence indexes
+				if (array[j] < array[i] && dp[j] + array[i] >= dp[i]) {
+					dp[i] = dp[j] + array[i];
+					sequences[i] = j; // keep track of potential sequences and store the previous numbers
 				}
 			}
-			if (dp[j] >= dp[maxSumIdx]) {
-				maxSumIdx = j;
+			if (dp[i] >= dp[maxSumEndingIdx]) {
+				maxSumEndingIdx = i;
 			}
 		}
-		return buildSequence(array, previousIndexes, maxSumIdx, dp[maxSumIdx]);
-  }
-	
-	private static List<List<Integer>> buildSequence(int[] array, int[] previousIndexes, int idx, int maxSum) {
-		List<List<Integer>> res = new ArrayList<List<Integer>>();
-		res.add(new ArrayList<>());
-		res.get(0).add(maxSum);
-		res.add(new ArrayList<>());
-		while (idx != -1) {
-			res.get(1).add(0, array[idx]);
-			idx = previousIndexes[idx];
+		return buildSequence(array, sequences, maxSumEndingIdx, dp[maxSumEndingIdx]);
+	}
+
+	private static List<List<Integer>> buildSequence(int[] array, int[] sequences, int idx, int maxSum) {
+		List<List<Integer>> sequence = new ArrayList<>();
+		sequence.add(new ArrayList<>());
+		sequence.get(0).add(maxSum);
+		sequence.add(new ArrayList<>());
+		while (idx != Integer.MIN_VALUE) {
+			sequence.get(1).add(0, array[idx]);
+			idx = sequences[idx];
 		}
-		return res;
+		return sequence;
 	}
 }

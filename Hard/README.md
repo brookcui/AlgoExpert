@@ -10,3 +10,4 @@
 * [Validate Three Nodes](./ValidateThreeNodes.java)
 * [Max Path Sum In Binary Tree](./MaxPathSumInBinaryTree.java)
 * [Find Nodes Distance K](./FindNodesDistanceK.java)
+* [Max Sum Increasing Subsequence](./MaxSumIncreasingSubsequence.java)
