@@ -87,5 +87,6 @@ AlgoExpert solutions.
 * [Largest Range](./Hard/LargestRange.java)
 * [Min Rewards](./Hard/MinRewards.java)
 * [Zigzag Traverse](./Hard/ZigzagTraverse.java)
+* [Same BSTs](./Hard/SameBSTs.java)
 
 ### [Very Hard](./VeryHard/)
