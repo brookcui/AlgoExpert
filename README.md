@@ -93,5 +93,6 @@ AlgoExpert solutions.
 * [Max Path Sum In Binary Tree](./Hard/MaxPathSumInBinaryTree.java)
 * [Find Nodes Distance K](./Hard/FindNodesDistanceK.java)
 * [Max Sum Increasing Subsequence](./Hard/MaxSumIncreasingSubsequence.java)
+* [Longest Common Subsequence](./Hard/LongestCommonSubsequence.java)
 
 ### [Very Hard](./VeryHard/)
