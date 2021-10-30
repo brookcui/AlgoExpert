@@ -12,3 +12,4 @@
 * [Find Nodes Distance K](./FindNodesDistanceK.java)
 * [Max Sum Increasing Subsequence](./MaxSumIncreasingSubsequence.java)
 * [Longest Common Subsequence](./LongestCommonSubsequence.java)
+* [Min Number Of Jumps](./MinNumberOfJumps.java)

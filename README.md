@@ -94,5 +94,6 @@ AlgoExpert solutions.
 * [Find Nodes Distance K](./Hard/FindNodesDistanceK.java)
 * [Max Sum Increasing Subsequence](./Hard/MaxSumIncreasingSubsequence.java)
 * [Longest Common Subsequence](./Hard/LongestCommonSubsequence.java)
+* [Min Number Of Jumps](./Hard/MinNumberOfJumps.java)
 
 ### [Very Hard](./VeryHard/)
