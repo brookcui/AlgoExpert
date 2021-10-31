@@ -95,6 +95,7 @@ AlgoExpert solutions.
 * [Max Sum Increasing Subsequence](./Hard/MaxSumIncreasingSubsequence.java)
 * [Longest Common Subsequence](./Hard/LongestCommonSubsequence.java)
 * [Min Number Of Jumps](./Hard/MinNumberOfJumps.java)
-* [Water Area](./Hard/WaterArea.java)
+* [Water Area (Solution 1)](./Hard/WaterArea.java)
+  * [Water Area (Solution 2)](./Hard/WaterArea2.java)
 
 ### [Very Hard](./VeryHard/)
