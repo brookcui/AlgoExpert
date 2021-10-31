@@ -16,3 +16,4 @@
 * [Water Area (Solution 1)](./WaterArea.java)
   * [Water Area (Solution 2)](./WaterArea2.java)
 * [Knapsack Problem](./KnapsackProblem.java)
+* [Disk Stacking](./DiskStacking.java)

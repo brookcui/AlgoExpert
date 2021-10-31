@@ -98,5 +98,6 @@ AlgoExpert solutions.
 * [Water Area (Solution 1)](./Hard/WaterArea.java)
   * [Water Area (Solution 2)](./Hard/WaterArea2.java)
 * [Knapsack Problem](./Hard/KnapsackProblem.java)
+* [Disk Stacking](./DiskStacking.java)
 
 ### [Very Hard](./VeryHard/)
