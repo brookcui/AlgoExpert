@@ -97,5 +97,6 @@ AlgoExpert solutions.
 * [Min Number Of Jumps](./Hard/MinNumberOfJumps.java)
 * [Water Area (Solution 1)](./Hard/WaterArea.java)
   * [Water Area (Solution 2)](./Hard/WaterArea2.java)
+* [Knapsack Problem](./Hard/KnapsackProblem.java)
 
 ### [Very Hard](./VeryHard/)
